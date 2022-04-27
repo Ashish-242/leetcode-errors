@@ -6,7 +6,7 @@ class Solution {
         return dp[n]=steps(dp,n-1)+steps(dp,n-2);
         
     }
-    
+//     Tabulation Approach
       public int steps2(int[] dp,int n){
       for(int i=0;i<n;i++){
             if(n<=1) {
@@ -20,10 +20,22 @@ class Solution {
         
     }
     
+    public int optimize(int n){
+        int a=0,b=1;
+        int sum=0;
+        for(int i=0;i<n;i++){
+            sum=a+b;
+            a=b;
+            b=sum;
+        }
+        return sum;
+    }
+    
     public int climbStairs(int n) {
-        int []dp=new int[n+1];
+      
         // int x= steps(dp,n);
-        int x=steps2(dp,n);
+        // int x=steps2(dp,n);
+      int x=optimize(n);
         return x;
         
     }
