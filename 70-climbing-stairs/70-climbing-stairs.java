@@ -19,7 +19,7 @@ class Solution {
           return dp[n];
         
     }
-    
+//     optimizing 
     public int optimize(int n){
         int a=0,b=1;
         int sum=0;
