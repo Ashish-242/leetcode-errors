@@ -1,65 +1,58 @@
 class Solution {
-public:
-    string removeDuplicateLetters(string s) {
-       unordered_map<char,int> map;
+    public String removeDuplicateLetters(String s) {
+    HashMap<Character,Integer> map=new HashMap<>();
         for(int i=0;i<s.length();i++){
-          map[s[i]]=i;
+      map.put(s.charAt(i),i);
         }
         
-       vector<bool> arr(26,false);
-        stack<char> st;
-        if(st.empty()) st.push(s[0]);
-        int x= s[0]-'a';
+      boolean[] arr = new boolean[26];
+        Stack<Character> st=new Stack<>();
+        if(st.isEmpty()) st.push(s.charAt(0));
+        int x= s.charAt(0)-'a';
       arr[x]=true;
         for(int i=1;i<s.length();i++){
             
-            if(arr[s[i]-'a']) continue;
-            while(st.size() > 0 && (s[i]-'a') < (st.top()-'a') && map.at(st.top()) > i){
-               arr[st.top()-'a']=false;
+            if(arr[s.charAt(i)-'a']) continue;
+            while(st.size() > 0 && (s.charAt(i)-'a') < (st.peek()-'a') && map.get(st.peek()) > i){
+               arr[st.peek()-'a']=false;
                st.pop();
             }
-             st.push(s[i]);
-               arr[s[i]-'a']=true;
+             st.push(s.charAt(i));
+               arr[s.charAt(i)-'a']=true;
              
             
         }
-         string stt="";
+         StringBuilder stt=new StringBuilder();
             while(!st.empty()){
-         cout<<st.top();
-                stt+=st.top();
-                st.pop();
-            }
-            reverse(stt.begin(),stt.end());
+        
+                stt.append(st.pop());
             
-        return stt;
+            }
+       return stt.reverse().toString();
+            
+     
     }
-};
+}
 
-//   vector<int> lastIndex(26, 0);
+//   int[] lastIndex = new int[26];
 //         for (int i = 0; i < s.length(); i++){
-//             lastIndex[s[i] - 'a'] = i; // track the lastIndex of character presence
+//             lastIndex[s.charAt(i) - 'a'] = i; // track the lastIndex of character presence
 //         }
         
-//         vector<bool> seen(26, false); // keep track seen
-//         stack<char> st;
+//         boolean[] seen = new boolean[26]; // keep track seen
+//         Stack<Integer> st = new Stack();
         
-//         for (int i = 0; i < s.size(); i++) {
-//             int curr = s[i] - 'a';
+//         for (int i = 0; i < s.length(); i++) {
+//             int curr = s.charAt(i) - 'a';
 //             if (seen[curr]) continue; // if seen continue as we need to pick one char only
-//             while(st.size() > 0 && st.top() > s[i] && i < lastIndex[st.top() - 'a']){
-//                 seen[st.top() - 'a'] = false; // pop out and mark unseen
-//                 st.pop();
+//             while (!st.isEmpty() && st.peek() > curr && i < lastIndex[st.peek()]){
+//                 seen[st.pop()] = false; // pop out and mark unseen
 //             }
-//             st.push(s[i]); // add into stack
+//             st.push(curr); // add into stack
 //             seen[curr] = true; // mark seen
 //         }
-        
-//         string ans = "";
-//         while (st.size() > 0){
-//             ans += st.top();
-//             st.pop();
-//         }
-//         reverse(ans.begin(), ans.end());
-//         return ans;
-//     }
 
+//         StringBuilder sb = new StringBuilder();
+//         while (!st.isEmpty())
+//             sb.append((char) (st.pop() + 'a'));
+//         return sb.reverse().toString();
