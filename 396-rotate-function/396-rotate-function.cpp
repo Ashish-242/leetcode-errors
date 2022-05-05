@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maxRotateFunction(vector<int>& nums) {
-         int sum=0, n=nums.size(),sumf=0, maxf=INT_MIN;
+         int sum=0, n=nums.size(),sumf=0, maxf=0;
         for(int i =0;i<n;i++){
             sum+=nums[i];
             sumf+=i*nums[i];
