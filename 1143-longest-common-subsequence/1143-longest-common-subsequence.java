@@ -9,7 +9,7 @@ class Solution {
     //     }
     // }
     
-  public int longestcommonsubsequence_memo(String s1,String s2,int N,int M, int[][] dp){
+  public int longestcommonsubsequence_tabu(String s1,String s2,int N,int M, int[][] dp){
        
         for(int n=0;n<=N;n++){
             for(int m=0;m<=M;m++){
@@ -38,7 +38,7 @@ class Solution {
         int[][] dp = new int[n+1][m+1];
         // display2d(dp);
        
-        int x =longestcommonsubsequence_memo(s1,s2,n,m,dp);
+        int x =longestcommonsubsequence_tabu(s1,s2,n,m,dp);
         return x;
     }
 }
