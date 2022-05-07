@@ -1,1 +1,1 @@
-​
+by tabulation
