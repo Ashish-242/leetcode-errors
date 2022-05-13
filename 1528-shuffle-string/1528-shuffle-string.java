@@ -1,13 +1,11 @@
 class Solution {
-public:
-    string restoreString(string s, vector<int>& arr) {
-            int n=s.size();
-        int x=0;
-     string ss=s;
-        for(int i=0;i<arr.size();i++){
-     ss[arr[i]]=s[i];
+    public String restoreString(String s, int[] arr) {
+              char[] c=new char[arr.length];
+     
+        for(int i=0;i<arr.length;i++){
+  c[arr[i]]=s.charAt(i);
         }
-        return ss;
+        return new String(c);
         
     }
-};
+}
