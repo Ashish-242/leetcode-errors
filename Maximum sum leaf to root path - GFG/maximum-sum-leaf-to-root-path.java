@@ -112,28 +112,42 @@ class Tree {
 
 class Solution
 {
-    static int m=Integer.MIN_VALUE;
-    static int sum=0;
-    public static int solve(Node root){
-        if(root==null){
-        return 0;  
-            
-         
+    // static int m=Integer.MIN_VALUE;
+    // static int sum=0
+
+    // public static int solve(Node root){
+    //     if(root==null){
+    //     return 0;  
+    //     }
+    //     sum+=root.data;
+    //     int left=solve(root.left);
+    //     int right=solve(root.right);
+    //     m=Math.max(left,right);
+    //     return m+root.data;
+   
+    // }
+    // Another Apporach
+      static int m=Integer.MIN_VALUE;
+    public static void solve(Node root,int sum){
+        if(root==null) return;
+        if(root.left==null && root.right==null){
+            sum=sum+root.data;
+            if(sum>m) m=sum;
+            return;
         }
-        sum+=root.data;
-        int left=solve(root.left);
      
-        int right=solve(root.right);
-        m=Math.max(left,right);
-        return m+root.data;
-      
-        
+        solve(root.left,sum+root.data);
+        solve(root.right,sum+root.data);
+    
     }
+    
     public static int maxPathSum(Node root)
     {
-        if(root==null) return 0;
-        if(root.right==null && root.left==null) return root.data;
-       return  solve(root);
+        // if(root==null) return 0;
+        // if(root.right==null && root.left==null) return root.data;
+         m=Integer.MIN_VALUE;
+    solve(root,0);
+    return m;
         
     }
 }
