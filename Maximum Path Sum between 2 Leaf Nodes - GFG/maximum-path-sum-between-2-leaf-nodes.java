@@ -123,8 +123,7 @@ class Solution
            int left=maxpath(root.left);
         int right=maxpath(root.right);
         
-        // int t_left=Math.max(left,0);
-        // int t_right=Math.max(right,0);
+    
         
         int total=left+right+root.data;
         if(total > max) max=total;
