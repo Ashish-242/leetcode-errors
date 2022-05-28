@@ -17,7 +17,7 @@ class Solution {
     public TreeNode construct(int[] nums,int s,int e){
         if(s>e) return null;
         int max=Integer.MIN_VALUE;
-        int index=0;
+        int index=-1;
         for(int i=s;i<=e;i++){
             if(nums[i]> max) index=i;
             max=Math.max(nums[i],max);
