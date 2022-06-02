@@ -15,6 +15,7 @@
  */
 class Solution {
          TreeNode prev=null;
+//     preorder approach
     public void flatten(TreeNode root) {
       if(root==null) return;
         TreeNode left=root.left;
