@@ -15,9 +15,9 @@
  */
 class Solution {
     int count=0;
-    final int c=1;
-    final int m=2;
-    final int nm=3;
+     int c=1;
+    int m=2;
+     int nm=3;
     public int solve(TreeNode node){
         if(node==null) return m;
         int left=solve(node.left);
