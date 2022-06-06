@@ -1,0 +1,44 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    int count=0;
+    final int c=1;
+    final int m=2;
+    final int nm=3;
+    public int solve(TreeNode node){
+        if(node==null) return m;
+        int left=solve(node.left);
+        int right=solve(node.right);
+        if(left==nm ||right==nm){
+            count+=1;
+            return c;
+        }else if(left==m && right==m){
+            return nm;
+        }else if(left==c || right==c){
+            return m;
+        }else{
+            return nm;
+        }
+    }
+    public int minCameraCover(TreeNode root) {
+        
+        int ans=solve(root);
+        if(ans==nm){
+            count+=1;
+        }
+        return count;
+    }
+}
