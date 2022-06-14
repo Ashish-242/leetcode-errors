@@ -27,8 +27,8 @@ class Solution {
                 
             }else{
                 int originalcolor=visited[v];
-                int newcolor=visited[nbr]*(-1);
-                if(originalcolor!=newcolor){
+                int newcolor=visited[nbr];
+                if(originalcolor==newcolor){
                     return false;
                 }
             } 
