@@ -10,16 +10,16 @@ class Solution {
         boolean[][] visited=new boolean[m][n];
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
+               flag=true;
+
                 if(grid[i][j]==1  && visited[i][j]==false){
                   count=0;
-                    
                     traverse(grid,visited,i,j);
                     if(flag==true){
                         len+=count;
                     }
                     
                 }
-                flag=true;
             }
             
         }
@@ -28,13 +28,15 @@ class Solution {
         }
     public void traverse(int[][] grid, boolean[][] visited,int i,int j){ 
                          
-        if(i<0 || j<0 || i>=grid.length || j>=grid[0].length){
-            flag=false;
-            return;
-        } 
+        if(i<0 || j<0 || i>=grid.length || j>=grid[0].length) return;
         else if(visited[i][j]==true) return;
         else if(grid[i][j]==0) return;
-  
+    else if(i==0 || j==0 || i==grid.length-1 || j==grid[0].length-1) {
+       if(grid[i][j]==1)  flag=false;
+       
+      
+        return;
+    }
         
         count++;
         visited[i][j]=true;
