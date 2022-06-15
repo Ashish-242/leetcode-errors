@@ -41,15 +41,11 @@ class Solution {
             if(grid[rem.i][rem.j]==1) fresh--;
             
 //             calls
-            // if(rem.i-1>=0) 
-                solve(rem.i-1,rem.j,grid,visited,rem.t+1,queue);
+            if(rem.i-1>=0) solve(rem.i-1,rem.j,grid,visited,rem.t+1,queue);
              
-            // if(rem.i+1<grid.length)
-                solve(rem.i+1,rem.j,grid,visited,rem.t+1,queue);
-             // if(rem.j+1<grid[0].length)
-                 solve(rem.i,rem.j+1,grid,visited,rem.t+1,queue);
-             // if(rem.j-1>=0)
-                 solve(rem.i,rem.j-1,grid,visited,rem.t+1,queue);
+            if(rem.i+1<grid.length) solve(rem.i+1,rem.j,grid,visited,rem.t+1,queue);
+             if(rem.j+1<grid[0].length) solve(rem.i,rem.j+1,grid,visited,rem.t+1,queue);
+             if(rem.j-1>=0) solve(rem.i,rem.j-1,grid,visited,rem.t+1,queue);
         }
        if(fresh==0) return time;
         return -1;
