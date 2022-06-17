@@ -27,10 +27,8 @@ class Solution {
             return c;
         }else if(left==m && right==m){
             return nm;
-        }else if(left==c || right==c){
+        }else {
             return m;
-        }else{
-            return nm;
         }
     }
     public int minCameraCover(TreeNode root) {
