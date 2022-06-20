@@ -22,7 +22,7 @@ class Solution {
     public Node cloneGraph(Node node) {
         if(node==null) return null;
         Node[] visited=new Node[101];
-        Arrays.fill(visited,null);
+        // Arrays.fill(visited,null);
         return helper(visited,node);
     }
     public Node helper(Node[] visited,Node node){
