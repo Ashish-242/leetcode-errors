@@ -1,16 +1,18 @@
 class Solution {
-    public int[] sortArray(int[] nums) {
-       PriorityQueue<Integer>pq=new PriorityQueue<>();
-        for(int it:nums){
-            pq.add(it);
+public:
+    vector<int> sortArray(vector<int>& nums) {
+             priority_queue<int,vector<int>,greater<int>>pq;
+        for(auto it:nums){
+            pq.push(it);
         }
-        int[] arr=new int[nums.length];
-        int i=0;
+       vector<int> arr;
+        
         while(pq.size()>0){
-            arr[i]=pq.poll();
-            i++;
+            arr.push_back(pq.top());
+            pq.pop();
+           
             
         }
         return arr;
     }
-}
+};
