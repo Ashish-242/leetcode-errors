@@ -13,20 +13,22 @@ class Solution {
         PriorityQueue<String>pq=new PriorityQueue<>(new Comparator<String>(){
             public int compare(String a,String b){
                 if(map.get(b)-map.get(a)==0){
-                  int x=Math.min(a.length(),b.length());
-                    int i=0;
-                    while(i!=x){
-                        char aa=a.charAt(i);
-                        char bb=b.charAt(i);
-                        if(aa!=bb){
-                            return (aa+'a')-(bb+'a');
-                        }
-                        i++;
-                    }
-                    if(i==x){
-                   return a.length()-b.length();
+//                   int x=Math.min(a.length(),b.length());
+//                     int i=0;
+//                     while(i!=x){
+//                         char aa=a.charAt(i);
+//                         char bb=b.charAt(i);
+//                         if(aa!=bb){
+//                             return (aa+'a')-(bb+'a');
+//                         }
+//                         i++;
+//                     }
+//                     if(i==x){
+//                    return a.length()-b.length();
                        
-                    }
+//                     }
+                    return a.compareTo(b);
+                       
                 }
                 return map.get(b)-map.get(a);
             }
