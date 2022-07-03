@@ -2,9 +2,11 @@ class Solution {
     public int numSimilarGroups(String[] str) {
         HashSet<String> visited=new HashSet<>();
         int ans=0;
+      
         for(String s:str){
             if(!visited.contains(s)){
                 dfs(s,str,visited);
+           
                 ans++;
             }
         }
