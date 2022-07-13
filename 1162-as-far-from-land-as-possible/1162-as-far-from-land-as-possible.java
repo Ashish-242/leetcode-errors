@@ -7,7 +7,7 @@ class Solution {
             this.level=level;
         }
     }
-    
+
     public int maxDistance(int[][] grid) {
         int m=grid.length;
         int n=grid[0].length;
@@ -44,7 +44,7 @@ class Solution {
         }
         return length;
     }
-    public void solve(int i,int j,boolean[][] visited,int[][] grid,ArrayDeque<Pair>queue,int l){
+       public  void solve(int i,int j,boolean[][] visited,int[][] grid,ArrayDeque<Pair>queue,int l){
         if(i<0 || j<0 || i>=grid.length || j>=grid[0].length){
             return;
         }
@@ -53,8 +53,10 @@ class Solution {
         
         queue.add(new Pair(i,j,l));
     }
-       
 }
 
 
     
+   
+ 
+  
