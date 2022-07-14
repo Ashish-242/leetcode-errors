@@ -1,32 +1,34 @@
 class Solution {
-    HashMap<String,PriorityQueue<String>> adj;
+    HashMap<String,PriorityQueue<String>> map;
     public List<String> findItinerary(List<List<String>> tickets) {
-        adj=new HashMap<>();
-//         we made a graph by this process
-        for(List<String> l:tickets){
-            String one=l.get(0);
-            String two=l.get(1);
-            if(adj.containsKey(one)){
-                 adj.get(one).add(two);
-            }else{
-                adj.put(one,new PriorityQueue<>());
-                adj.get(one).add(two);
+//         I am making a graph
+        map=new HashMap<>();
+        for(List<String> t:tickets){
+            String one=t.get(0);
+            String two=t.get(1);
+            if(map.containsKey(one)){
+                map.get(one).add(two);
+            }
+            else{
+                map.put(one,new PriorityQueue<String>());
+                map.get(one).add(two);
             }
         }
         LinkedList<String> res=new LinkedList<>();
         dfs("JFK",res);
         return res;
-        
     }
-    public void dfs(String v,LinkedList<String> res){
-        if(adj.containsKey(v)==false || adj.get(v).size()==0){
-            res.addFirst(v);
+    public void dfs(String x,LinkedList<String> res){
+        if(!map.containsKey(x) || map.get(x).size()==0){
+            res.addFirst(x);
             return;
+        }else{
+            while(map.get(x).size()>0){
+                String ss=map.get(x).remove();
+                dfs(ss,res);
+                
+            }
         }
-        while(adj.get(v).size()>0){
-            String ss=adj.get(v).remove();
-            dfs(ss,res);
-        }
-        res.addFirst(v);
+        res.addFirst(x);
     }
 }
