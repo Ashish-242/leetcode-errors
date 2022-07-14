@@ -14,20 +14,22 @@
  * }
  */
 class Solution {
-    public  TreeNode search(int[] preorder,int pi,int pe,int ii,int ie,int[] inorder){
-    if(ii> ie) return null;
-    int idx=ii;
-    while(inorder[idx]!=preorder[pi]) idx++;
-    int c=idx-ii;
-    TreeNode node=new TreeNode(preorder[pi]);
-
-
-    node.left=search(preorder,pi+1,pi+c,ii,idx-1,inorder);
-        node.right=search(preorder,pi+c+1,pe,idx+1,ie,inorder);
-  return node;
-}
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        int n=preorder.length;
-      return search(preorder,0,n-1,0,n-1,inorder);
+        if(preorder.length==1) return new TreeNode(-1);
+      TreeNode ans=  solve(preorder,0,preorder.length-1,0,preorder.length-1,inorder);
+        return ans;
+    }
+    public TreeNode solve(int[] pre,int pi,int pe,int ii,int ie,int[] in){
+        if(pi>pe) return null;
+        int idx=ii;
+        while(pre[pi]!=in[idx]){
+            idx++;
+        }
+        int c=idx-ii;
+        TreeNode root=new TreeNode(pre[pi]);
+        root.left=solve(pre,pi+1,pi+c,ii,idx-1,in);
+        root.right=solve(pre,pi+c+1,pe,idx+1,ie,in);
+        return root;
+        
     }
 }
