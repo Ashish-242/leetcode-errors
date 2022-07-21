@@ -3,12 +3,7 @@ class Solution {
     
     public List<List<Integer>> combine(int n, int k) {
         List<Integer> list=new ArrayList<>();
-        if(n==1 && k==1) {
-            List<Integer> ress=new ArrayList<>();
-            ress.add(1);
-            res.add(new ArrayList<>(ress));
-            return res;
-        }
+      
         solve(1,n,k,list);
         return res;
     }
