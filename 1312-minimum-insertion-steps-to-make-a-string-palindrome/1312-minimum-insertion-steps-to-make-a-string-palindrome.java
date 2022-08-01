@@ -3,7 +3,7 @@ class Solution {
 //         longestpalidnromicsubsequence
         int n=s.length();
         char[] ch=s.toCharArray();
-        int[][] dp=new int[n+1][n+1];
+        int[][] dp=new int[n][n];
         for(int[] arr:dp){
             Arrays.fill(arr,-1);
         }
