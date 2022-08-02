@@ -8,20 +8,15 @@ class Solution {
         int pmax=intervals[0][1];
         
         for(int i=1;i<intervals.length;i++){
-              ArrayList<Integer> list2=new ArrayList<>();
+              
           if(intervals[i][0]> pmax){
-              list2.add(pmin);
-              list2.add(pmax);
-              list.add(list2);
+             list.add(new ArrayList<>(Arrays.asList(pmin,pmax)));
               pmin=intervals[i][0];
               pmax=intervals[i][1];
           }else
               pmax=Math.max(pmax,intervals[i][1]);
         }
-        ArrayList<Integer> list2=new ArrayList<>();
-        list2.add(pmin);
-              list2.add(pmax);
-              list.add(list2);
+        list.add(new ArrayList<>(Arrays.asList(pmin,pmax)));
       
         
         int[][] res=new int[list.size()][2];
