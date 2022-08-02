@@ -1,42 +1,36 @@
 class Solution {
-    public static  void Sort2DArrayBasedOnColumnNumber (int[][] intervals, final int columnNumber){
-        Arrays.sort(intervals, new Comparator<int[]>() {
-      
-            public int compare(int[] first, int[] second) {
-               if(first[columnNumber-1] > second[columnNumber-1]) return 1;
-                else if(first[columnNumber-1]< second[columnNumber-1])return -1;
-               else return 0;
-            }
+    public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals,(a,b)->{
+            return a[0]-b[0];
         });
-    }
-    public int[][] merge(int[][] arr) {
-        Sort2DArrayBasedOnColumnNumber(arr,1);
-       
-        int pmax=arr[0][1];
-        int pmin=arr[0][0];
-        ArrayList<ArrayList<Integer>> list=new ArrayList<>();
-     
-        for(int i=1;i<arr.length;i++){
-            
-            if( pmax >= arr[i][0]) pmax=Math.max(pmax,arr[i][1]);
-            else {
-                list.add(new ArrayList<>(Arrays.asList(pmin,pmax)));
-                pmin=arr[i][0];
-                pmax=arr[i][1];
-            }
-            
+        ArrayList<ArrayList<Integer>>list=new ArrayList<>();
+      int pmin=intervals[0][0];
+        int pmax=intervals[0][1];
+        
+        for(int i=1;i<intervals.length;i++){
+              ArrayList<Integer> list2=new ArrayList<>();
+          if(intervals[i][0]> pmax){
+              list2.add(pmin);
+              list2.add(pmax);
+              list.add(list2);
+              pmin=intervals[i][0];
+              pmax=intervals[i][1];
+          }else
+              pmax=Math.max(pmax,intervals[i][1]);
         }
-          list.add(new ArrayList<>(Arrays.asList(pmin,pmax)));
-        int[][] d=new int[list.size()][2];
-        for(int i=0;i<list.size();i++){
-            for(int j=0;j<2;j++){
-                d[i][j]=list.get(i).get(j);
-            }
-        }
-        return d;
+        ArrayList<Integer> list2=new ArrayList<>();
+        list2.add(pmin);
+              list2.add(pmax);
+              list.add(list2);
+      
+        
+        int[][] res=new int[list.size()][2];
+        int i=0;
+       for(ArrayList<Integer> anslist:list){
+           res[i][0]=anslist.get(0);
+           res[i][1]=anslist.get(1);
+           i++;
+       }
+        return res;
     }
 }
-
-
-
-
