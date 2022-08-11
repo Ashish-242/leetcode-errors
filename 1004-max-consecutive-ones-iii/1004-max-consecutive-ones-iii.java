@@ -3,26 +3,19 @@ class Solution {
         int ans=0;
         int i=0;
         int j=0;
-        int s=k;
+        int s=0;
         while(j<nums.length){
-          
-            if(nums[j]==1) j++;
-            else{
-                if(s==0){
-                    ans=Math.max(ans,j-i);
-                    if(nums[i]==0) {
-                        i++;
-                        s++;
-                    }else i++;
-//                     aquire
-                    
-                }else{
-                    s--;
-                    j++;
-                }
+          if(nums[j]==0){
+             s++; 
+          }
+            while(s>k){
+                if(nums[i]==0)s--;
+                i++;
             }
+            ans=Math.max(ans,j-i+1);
+            j++;
         }
-        ans=Math.max(ans,j-i);
+      
         return ans;
     }
 }
