@@ -51,7 +51,7 @@ class Solution {
             f1=c1;
             f2=c2;
         }
-        printList(head);
+      
         
     }
      void printList(ListNode node) {
