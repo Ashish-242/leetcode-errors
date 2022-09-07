@@ -41,11 +41,11 @@ public:
         }
          if(st.size()!=st2.size()) return false;
         while(!st.empty()){
-             if(st.size()!=st2.size()){ return false;
+             // if(st.size()!=st2.size()){ return false;
       
-        } 
+        // } 
           if(st.top() != st2.top() ) return false;
-            else if((st.size()!=0 && st2.size()==0) || (st.size()==0 && st2.size()!=0)) return false;
+            // else if((st.size()!=0 && st2.size()==0) || (st.size()==0 && st2.size()!=0)) return false;
             else{
                 st.pop();
                 st2.pop();
