@@ -1,46 +1,23 @@
 class Solution {
     public int largestRectangleArea(int[] arr) {
+        Stack<Integer> st=new Stack<>();
+        int maxA=0;
         int n=arr.length;
-        int[] left=new int[n];
-        int[] right=new int[n];
-        Stack<Integer> sleft=new Stack<>();
-
-        //         left means storing left smallest 
-        sleft.push(0);
-        left[0]=0;
-        for(int i=1;i<n;i++){
-            while(sleft.size()>0 && arr[sleft.peek()] >= arr[i]){
-                sleft.pop();
+        for(int i=0;i<=n;i++){
+            while(!st.isEmpty() && (i==n || arr[st.peek()] > arr[i])){
+                int hightindex=st.pop();
+                int height=arr[hightindex];
+                
+                int width=0;
+                if(st.isEmpty()){
+                   width=i;
+                }else{
+                    width=i-st.peek()-1;
+                }
+                maxA=Math.max(maxA,height*width);
             }
-            if(sleft.size()==0){
-                left[i]=0;
-            }else{
-                left[i]=sleft.peek()+1;
-            }
-            sleft.push(i);
+            st.push(i);
         }
-        
-        
-//     right means storing right smallest
-        Stack<Integer> sright=new Stack<>();
-        sright.push(n-1);
-        right[n-1]=n-1;
-        for(int j=n-2;j>=0;j--){
-             while(sright.size()>0 && arr[j] <= arr[sright.peek()]){
-                sright.pop();
-            }
-            if(sright.size()==0){
-                right[j]=n-1;
-            }else{
-                right[j]=sright.peek()-1;
-            }
-            sright.push(j);
-        }
-        int mx=Integer.MIN_VALUE;
-        for(int i=0;i<arr.length;i++){
-            int area=(right[i]-left[i] +1)*arr[i];
-            mx=Math.max(mx,area);
-        }
-        return mx;
+        return maxA;
     }
 }
