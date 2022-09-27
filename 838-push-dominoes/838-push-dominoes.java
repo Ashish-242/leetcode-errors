@@ -1,9 +1,7 @@
 class Solution {
     public String pushDominoes(String s) {
-//         two pointer approach
-//         meet in the middle
         StringBuilder sb=new StringBuilder();
-         s="L" + s + "R";
+                s="L" + s + "R";
         char[] arr=s.toCharArray();
         int n=arr.length;
         int pi=0;
