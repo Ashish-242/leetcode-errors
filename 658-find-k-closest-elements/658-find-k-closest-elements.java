@@ -1,53 +1,36 @@
 class Solution {
     class Pair {
-        int key;
         int val;
-        Pair(int key,int val){
+        int key;
+        Pair(int val,int key){
             this.val=val;
             this.key=key;
         }
-        // public int compare(Pair o){
-        //     if(this.key-o.key==0){
-        //         return o.val-this.val;
-        //     }
-        //     return o.key-this.key;
-        // }
+     
     }
-    // PriorityQueue<Pair> pq = new PriorityQueue<>(
-    //     new Comparator<Pair>(){
-    //         public int compare(Pair a, Pair b){
-    //             // if both the keys are same then compare on the bases of their values
-    //             if((b.key - a.key) == 0)
-    //                 return b.value - a.value;
-    //             return b.key - a.key;
-    //         }
-    // });
     public List<Integer> findClosestElements(int[] arr, int k, int x) {
-        PriorityQueue<Pair> pq = new PriorityQueue<>(
-        new Comparator<Pair>(){
-            public int compare(Pair a, Pair b){
-                // if both the keys are same then compare on the bases of their values
-                if((b.key - a.key) == 0)
-                    return b.val - a.val;
-                return b.key - a.key;
-            }
-    });
-        List<Integer> res=new ArrayList<>();
+        PriorityQueue<Pair>pq=new PriorityQueue<>(new Comparator<Pair>(){
+               public int compare(Pair a,Pair b){
+            if(a.val==b.val) return b.key-a.key;
+            return b.val-a.val;
+        }
+        });
         for(int i=0;i<arr.length;i++){
-            Pair rem=new Pair(Math.abs(arr[i]-x),arr[i]);
+            Pair rem=new Pair(Math.abs(x-arr[i]),arr[i]);
             pq.add(rem);
-            if(pq.size()> k){
+            if(pq.size()>k){
                 pq.remove();
             }
+     
         }
-   while(pq.size()>0){
-       Pair rem=pq.poll();
-       res.add(rem.val);
-   }
+        List<Integer> res=new ArrayList<>();
+        while(pq.size()>0){
+            Pair temp=pq.poll();
+         
+            res.add(temp.key);
+        }
         Collections.sort(res);
         return res;
-      
         
     }
-    
 }
