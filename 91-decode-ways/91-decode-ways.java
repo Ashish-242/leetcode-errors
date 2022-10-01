@@ -1,26 +1,30 @@
 class Solution {
+    public int solve(String s,int i,int[] dp){
+        if(i==s.length()){
+            return 1;
+        }
+        if(dp[i]!=-1) return dp[i];
+        
+        char ch=s.charAt(i);
+        int take=0;
+       if(ch=='0') return 0;
+        take=solve(s,i+1,dp);
+        int againtake=0;
+       if(i<s.length()-1){
+           String ss=s.substring(i,i+2);
+        int range=Integer.parseInt(ss);
+        if(range<=26){
+            againtake=solve(s,i+2,dp); 
+        } 
+       }
+       
+        return dp[i]=take+againtake;
+    }
     public int numDecodings(String s) {
-     int[] dp=new int[s.length()+1];
+        if(s.charAt(0)=='0') return 0;
+        int[] dp=new int[s.length()+1];
         Arrays.fill(dp,-1);
-      int ans=solve(s,0,dp);
+        int ans=solve(s,0,dp);
         return ans;
-    }
-    public int solve(String s,int index,int[] dp){
-        if(index==s.length()) {
-            return dp[index]=1;
-        }
-        if(s.charAt(index)=='0') return 0;
-        if(dp[index]!=-1) return dp[index];
-    
-        int take1=solve(s,index+1,dp);
-        int take2=0;
-        if(index<s.length()-1){
-        String ch2=s.substring(index,index+2);
-        int x=Integer.parseInt(ch2);
-        if(x<=26){
-            take2=solve(s,index+2,dp);
-        }
-    }
-        return dp[index]=take1+take2;
     }
 }
