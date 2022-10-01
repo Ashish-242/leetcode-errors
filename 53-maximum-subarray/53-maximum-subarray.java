@@ -1,18 +1,18 @@
 class Solution {
     public int maxSubArray(int[] arr) {
 //         kadanes Algorithm for largest subarray
-        int mx=Integer.MIN_VALUE;
+      int mx=Integer.MIN_VALUE;
         int n=arr.length;
-    //   mx= max so far
-    int mn=0;
-    for(int i=0;i<n;i++){
-        mn+=arr[i];
-        if(mx<mn){
-            mx=mn;
+        int sum=0;
+        for(int i=0;i<n;i++){
+        sum+=arr[i];
+          
+            mx=Math.max(mx,sum);
+              if(sum<0) sum=0;
+            
+            
         }
-        if(mn<0) mn=0;
-    }
- return mx;
+        return mx;
     
     }
 }
