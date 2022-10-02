@@ -1,26 +1,32 @@
 class Solution {
     public int numRollsToTarget(int n, int k, int target) {
-          dp=new int[n+1][target+1];
-        for(int[] d:dp) Arrays.fill(d,-1);
+        dp=new int[n+1][target+1];
+       
         
         return noofdiceroll(n,k,target);
         
     }
     int[][] dp;
     int mod=(int)(1e9+7);
-    public int noofdiceroll(int n,int k,int target){
-        if(n==0){
-            if(target==0) return 1;
+    public int noofdiceroll(int N,int K,int Tar){
+        dp[0][0]=1;
+        for(int n=1;n<=N;n++){
             
+            for(int target=0;target<=Tar;target++){
+             
+                 int take=0;
+                for(int k=1;k<=K;k++){
+
+                    if(target>=k){
+                        take= (take+dp[n-1][target-k])%mod;
+                    }
+                }
+                dp[n][target]=take;
+            
+             }
         }
-        if(target<0 || n<=0) return 0;
-        if(dp[n][target]!=-1) return dp[n][target];
-        
-        int take=0;
-        for(int i=1;i<=k;i++){
-            take= (take%mod+ (noofdiceroll(n-1,k,target-i))%mod)%mod;
-        }
-        return dp[n][target]=take;
+       
+        return dp[N][Tar];
     }
 }
 
