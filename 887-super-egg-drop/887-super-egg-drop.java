@@ -16,20 +16,20 @@ class Solution {
 //             int max1=1+Math.max(breaks,notbreak);
 //            mn=  Math.min(mn,max1);
 //         }
-          while(l<=h)
-        {
-            int mid=(l+h)/2;
-            int left=solve(e-1,mid-1,dp);   //egg broken check for down floors of mid
-            int right=solve(e,n-mid,dp) ;   // not broken check for up floors of mid
-            temp=1+Math.max(left,right);          //store max of both 
-            if(left<right){                  //since right is more than left and we need more in worst case 
-              l=mid+1;                       // so l=mid+1 to gain more temp for worst case : upward
-            }
-            else                             //left > right so we will go downward 
-            {    
-                h=mid-1;
-            }
-            mn=Math.min(mn,temp);               //store minimum attempts
+          while(l<=h){
+              int mid=(l+h)/2;
+              
+              int left=solve(e-1,mid-1,dp);
+              int right=solve(e,n-mid,dp);
+               temp=1+Math.max(left,right);
+              if(left<right){
+                  l=mid+1;
+                  
+              }else{
+                  h=mid-1;
+              }
+              mn=Math.min(mn,temp);
+                        //store minimum attempts
         }
         return dp[e][n]=mn;
     
