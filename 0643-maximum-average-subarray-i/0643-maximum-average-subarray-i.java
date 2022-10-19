@@ -2,23 +2,20 @@ class Solution {
     public double findMaxAverage(int[] arr, int k) {
 //         first calculate prefix sum 
 //         take pointers
+//         done by prefix sum
         double psum=0;
         int i=0,j=0;
         int n=arr.length;
         double mx=Integer.MIN_VALUE;
-        while(j<n){
-            if(j<k){
-                psum=psum+arr[j];
-            }else {
-                mx=Math.max(mx,psum/k);
-                psum+=arr[j]-arr[i];
-                i++;
-                
-            }
-            j++;
-            
+       while(i<k){
+           psum+=arr[i];
+           i++;
+       }
+        mx=Math.max(mx,psum);
+        for( i=k;i<n;i++){
+            psum+=arr[i]-arr[i-k];
+            mx=Math.max(mx,psum);
         }
-        mx=Math.max(mx,psum/k);
-        return mx;
+        return mx*1.0/k;
     }
 }
