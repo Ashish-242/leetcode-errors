@@ -2,23 +2,36 @@ class Solution {
     public int findPeakElement(int[] nums) {
         
         int n=nums.length;
-        if(n==1) return 0;
-        if(n==0) return 0;
+       return helper(nums,0,n-1);
         
-        for(int i=0;i<n;i++)
-            if(i==0){
-                if(nums[i]>nums[i+1]){
-                    return i;
-                }
-            }
-            else if( i<n-1 && nums[i-1] < nums[i] && nums[i]>nums[i+1]){
-                return i;
-            }else if(i==n-1) {
-                if(nums[i-1]<nums[i]){
-                    return i;
-                }
-            }
-          return 0;
+    } 
+    public int helper(int[] nums,int lo,int hi){
+        if(lo==hi) return lo;
+        if(lo+1==hi){
+            if(nums[lo]>nums[hi]){
+                return lo;
+            }else return hi;
         }
-      
+        int ans=0;
+        while(lo<=hi){
+           
+             if(lo+1==hi){
+            if(nums[lo]>nums[hi]){
+                return lo;
+            }else return hi;
+        }
+            if(lo==hi) return lo;
+            
+           int mid=(lo+hi)/2;
+            if(nums[mid-1]< nums[mid] && nums[mid]>nums[mid+1]){
+             return mid;
+               
+            }else if(nums[mid-1]> nums[mid] && nums[mid] >nums[mid+1]){
+             hi=mid-1;
+            }else{
+            lo=mid+1;
+            }
+        }
+        return ans;
     }
+}
