@@ -11,7 +11,8 @@ class Solution {
 //         our case maxbit is 2 so we get k=3
 //         2-0010
 //         0010<<1  = 0100 => 0100-1=0011 which is equal to 3 
-        int max=(1<<maximumBit)-1;
+        double max2=Math.pow(2,maximumBit)-1;
+        int max=(int) max2;
         for(int i=0;i<nums.length;i++){
             arr[i]=sum^max;
             sum^=nums[n-i-1];
