@@ -2,7 +2,7 @@ class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
         List<List<String>> res=new ArrayList<>();
         
-        boolean[] arr=new boolean[strs.length];
+      
         HashMap<String,List<String>> map=new HashMap<>();
         
         for(int i=0;i<strs.length;i++){
