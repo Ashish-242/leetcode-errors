@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0450-delete-node-in-a-bst](https://github.com/Ashish-242/leetcode-errors/tree/master/0450-delete-node-in-a-bst) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Ashish-242/leetcode-errors/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -35,4 +36,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0450-delete-node-in-a-bst](https://github.com/Ashish-242/leetcode-errors/tree/master/0450-delete-node-in-a-bst) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Ashish-242/leetcode-errors/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## String
+|  |
+| ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Ashish-242/leetcode-errors/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
+## Depth-First Search
+|  |
+| ------- |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Ashish-242/leetcode-errors/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 <!---LeetCode Topics End-->
