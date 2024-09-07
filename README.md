@@ -76,4 +76,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2413-smallest-number-in-infinite-set](https://github.com/Ashish-242/leetcode-errors/tree/master/2413-smallest-number-in-infinite-set) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Ashish-242/leetcode-errors/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/Ashish-242/leetcode-errors/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
