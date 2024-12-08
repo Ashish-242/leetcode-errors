@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/Ashish-242/leetcode-errors/tree/master/0747-min-cost-climbing-stairs) |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
+| [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Ashish-242/leetcode-errors/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 ## Hash Table
 |  |
@@ -31,10 +32,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0162-find-peak-element](https://github.com/Ashish-242/leetcode-errors/tree/master/0162-find-peak-element) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 ## Sorting
 |  |
 | ------- |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
+| [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 ## Tree
 |  |
 | ------- |
@@ -69,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0747-min-cost-climbing-stairs](https://github.com/Ashish-242/leetcode-errors/tree/master/0747-min-cost-climbing-stairs) |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
+| [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -89,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Ashish-242/leetcode-errors/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Ashish-242/leetcode-errors/tree/master/2413-smallest-number-in-infinite-set) |
 ## Linked List
