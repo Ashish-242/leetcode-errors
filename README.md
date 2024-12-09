@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
 | [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Ashish-242/leetcode-errors/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
 ## Hash Table
 |  |
 | ------- |
@@ -35,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/Ashish-242/leetcode-errors/tree/master/0162-find-peak-element) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
+| [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
 ## Sorting
 |  |
 | ------- |
@@ -82,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
+| [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
 ## Game Theory
 |  |
 | ------- |
