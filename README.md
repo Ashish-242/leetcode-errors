@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
 | [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Ashish-242/leetcode-errors/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
 ## Hash Table
 |  |
@@ -25,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Ashish-242/leetcode-errors/tree/master/2413-smallest-number-in-infinite-set) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Ashish-242/leetcode-errors/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Two Pointers
 |  |
 | ------- |
@@ -44,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/Ashish-242/leetcode-errors/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Ashish-242/leetcode-errors/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Tree
 |  |
 | ------- |
@@ -93,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Ashish-242/leetcode-errors/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Design
 |  |
 | ------- |
@@ -104,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Ashish-242/leetcode-errors/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Ashish-242/leetcode-errors/tree/master/2413-smallest-number-in-infinite-set) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Linked List
 |  |
 | ------- |
