@@ -1,12 +1,18 @@
 class Solution {
     public boolean increasingTriplet(int[] nums) {
-        // start with two largest values, as soon as we find a number bigger than both, while both have been updated, return true.
-        int small = Integer.MAX_VALUE, big = Integer.MAX_VALUE;
-        for (int n : nums) {
-            if (n <= small) { small = n; } // update small if n is smaller than both
-            else if (n <= big) { big = n; } // update big only if greater than small but smaller than big
-            else return true; // return if you find a number bigger than both
+        int n=nums.length;
+        int[] ans=new int[nums.length];
+        
+        ans[0]=nums[0];
+        for(int i=1;i<nums.length;i++){
+            ans[i]=Math.min(ans[i-1],nums[i]);
         }
+        int right=nums[n-1];
+        for(int i=n-2;i>=0;i--){
+               if(ans[i] <nums[i] && nums[i]<right) return true;
+            right=Math.max(right,nums[i]);
+        }
+ 
         return false;
     }
 }
