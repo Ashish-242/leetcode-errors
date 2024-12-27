@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ashish-242/leetcode-errors/tree/master/0011-container-with-most-water) |
 | [0162-find-peak-element](https://github.com/Ashish-242/leetcode-errors/tree/master/0162-find-peak-element) |
 | [0238-product-of-array-except-self](https://github.com/Ashish-242/leetcode-errors/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/Ashish-242/leetcode-errors/tree/master/0283-move-zeroes) |
@@ -33,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ashish-242/leetcode-errors/tree/master/0011-container-with-most-water) |
 | [0283-move-zeroes](https://github.com/Ashish-242/leetcode-errors/tree/master/0283-move-zeroes) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
@@ -160,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ashish-242/leetcode-errors/tree/master/0011-container-with-most-water) |
 | [0334-increasing-triplet-subsequence](https://github.com/Ashish-242/leetcode-errors/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/Ashish-242/leetcode-errors/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Ashish-242/leetcode-errors/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
