@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0435-non-overlapping-intervals](https://github.com/Ashish-242/leetcode-errors/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Ashish-242/leetcode-errors/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [0643-maximum-average-subarray-i](https://github.com/Ashish-242/leetcode-errors/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/Ashish-242/leetcode-errors/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ashish-242/leetcode-errors/tree/master/0747-min-cost-climbing-stairs) |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
@@ -132,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
+| [0643-maximum-average-subarray-i](https://github.com/Ashish-242/leetcode-errors/tree/master/0643-maximum-average-subarray-i) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Ashish-242/leetcode-errors/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 ## Stack
 |  |
