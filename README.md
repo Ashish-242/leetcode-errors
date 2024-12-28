@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/Ashish-242/leetcode-errors/tree/master/0643-maximum-average-subarray-i) |
 | [0739-daily-temperatures](https://github.com/Ashish-242/leetcode-errors/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ashish-242/leetcode-errors/tree/master/0747-min-cost-climbing-stairs) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ashish-242/leetcode-errors/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Ashish-242/leetcode-errors/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -47,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0162-find-peak-element](https://github.com/Ashish-242/leetcode-errors/tree/master/0162-find-peak-element) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ashish-242/leetcode-errors/tree/master/1046-max-consecutive-ones-iii) |
 | [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 | [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
 ## Sorting
@@ -98,6 +100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Ashish-242/leetcode-errors/tree/master/0238-product-of-array-except-self) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ashish-242/leetcode-errors/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
 | [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
 ## Game Theory
@@ -134,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/Ashish-242/leetcode-errors/tree/master/0643-maximum-average-subarray-i) |
+| [1046-max-consecutive-ones-iii](https://github.com/Ashish-242/leetcode-errors/tree/master/1046-max-consecutive-ones-iii) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Ashish-242/leetcode-errors/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 ## Stack
 |  |
