@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Ashish-242/leetcode-errors/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
+| [2358-number-of-ways-to-split-array](https://github.com/Ashish-242/leetcode-errors/tree/master/2358-number-of-ways-to-split-array) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Ashish-242/leetcode-errors/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/Ashish-242/leetcode-errors/tree/master/0238-product-of-array-except-self) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ashish-242/leetcode-errors/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
+| [2358-number-of-ways-to-split-array](https://github.com/Ashish-242/leetcode-errors/tree/master/2358-number-of-ways-to-split-array) |
 | [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
 ## Game Theory
 |  |
