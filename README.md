@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
+| [1502-construct-k-palindrome-strings](https://github.com/Ashish-242/leetcode-errors/tree/master/1502-construct-k-palindrome-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Ashish-242/leetcode-errors/tree/master/1798-max-number-of-k-sum-pairs) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Ashish-242/leetcode-errors/tree/master/2413-smallest-number-in-infinite-set) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Ashish-242/leetcode-errors/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
+| [1502-construct-k-palindrome-strings](https://github.com/Ashish-242/leetcode-errors/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/Ashish-242/leetcode-errors/tree/master/1524-string-matching-in-an-array) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Ashish-242/leetcode-errors/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Ashish-242/leetcode-errors/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
@@ -182,9 +184,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0334-increasing-triplet-subsequence](https://github.com/Ashish-242/leetcode-errors/tree/master/0334-increasing-triplet-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/Ashish-242/leetcode-errors/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Ashish-242/leetcode-errors/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
+| [1502-construct-k-palindrome-strings](https://github.com/Ashish-242/leetcode-errors/tree/master/1502-construct-k-palindrome-strings) |
 ## String Matching
 |  |
 | ------- |
 | [1524-string-matching-in-an-array](https://github.com/Ashish-242/leetcode-errors/tree/master/1524-string-matching-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Ashish-242/leetcode-errors/tree/master/2292-counting-words-with-a-given-prefix) |
+## Counting
+|  |
+| ------- |
+| [1502-construct-k-palindrome-strings](https://github.com/Ashish-242/leetcode-errors/tree/master/1502-construct-k-palindrome-strings) |
 <!---LeetCode Topics End-->
