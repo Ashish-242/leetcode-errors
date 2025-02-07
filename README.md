@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/Ashish-242/leetcode-errors/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [3427-special-array-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/3427-special-array-ii) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Ashish-242/leetcode-errors/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Hash Table
 |  |
 | ------- |
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2413-smallest-number-in-infinite-set](https://github.com/Ashish-242/leetcode-errors/tree/master/2413-smallest-number-in-infinite-set) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Ashish-242/leetcode-errors/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Ashish-242/leetcode-errors/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Ashish-242/leetcode-errors/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Two Pointers
 |  |
@@ -125,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/Ashish-242/leetcode-errors/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Ashish-242/leetcode-errors/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Design
 |  |
 | ------- |
