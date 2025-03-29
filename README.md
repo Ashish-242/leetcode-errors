@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/Ashish-242/leetcode-errors/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0045-jump-game-ii) |
+| [0088-merge-sorted-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0088-merge-sorted-array) |
 | [0162-find-peak-element](https://github.com/Ashish-242/leetcode-errors/tree/master/0162-find-peak-element) |
 | [0238-product-of-array-except-self](https://github.com/Ashish-242/leetcode-errors/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/Ashish-242/leetcode-errors/tree/master/0283-move-zeroes) |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Ashish-242/leetcode-errors/tree/master/0011-container-with-most-water) |
+| [0088-merge-sorted-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/Ashish-242/leetcode-errors/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Ashish-242/leetcode-errors/tree/master/0287-find-the-duplicate-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -68,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0088-merge-sorted-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0435-non-overlapping-intervals](https://github.com/Ashish-242/leetcode-errors/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Ashish-242/leetcode-errors/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
