@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0088-merge-sorted-array) |
 | [0283-move-zeroes](https://github.com/Ashish-242/leetcode-errors/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Ashish-242/leetcode-errors/tree/master/0287-find-the-duplicate-number) |
+| [0344-reverse-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0344-reverse-string) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Ashish-242/leetcode-errors/tree/master/1798-max-number-of-k-sum-pairs) |
@@ -102,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0344-reverse-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/Ashish-242/leetcode-errors/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/Ashish-242/leetcode-errors/tree/master/1524-string-matching-in-an-array) |
