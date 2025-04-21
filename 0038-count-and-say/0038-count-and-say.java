@@ -9,21 +9,23 @@ class Solution {
         
         
     }
-    public String getrle(String ss){
-            char[] ch=ss.toCharArray();
-            String s="";
-            int countno=1;
-            for(int j=1;j<ch.length;j++){
-                if(ch[j]==ch[j-1]) countno+=1;
-                else{
-                    s+=countno;
-                    s+=ch[j-1];
-                    countno=1;
-                }
+    public String getrle(String s){
+            StringBuilder sb=new StringBuilder();
+        
+        char ch=s.charAt(0);
+        int count=1;
+        for(int i=1;i<s.length();i++){
+            if(s.charAt(i)==ch) count++;
+            else{
+                sb.append(count);
+                sb.append(ch);
+                count=1;
+                ch=s.charAt(i);
             }
-            s+=countno;
-            s+=ch[ch.length-1];
-            return s;
+        }
+        sb.append(count);
+        sb.append(ch);
+        return sb.toString();
         }
    
   
