@@ -1,8 +1,10 @@
 class Solution {
     public String countAndSay(int n) {
-        if(n==1) return "1";
-        String val=countAndSay(n-1);
-        String res=getrle(val);
+           String res="1";
+         for (int i = 1; i < n; i++) {
+         
+            res = getrle(res);
+        }
          return res;
         
         
