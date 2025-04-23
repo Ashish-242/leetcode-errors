@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Ashish-242/leetcode-errors/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/Ashish-242/leetcode-errors/tree/master/0011-container-with-most-water) |
 | [0031-next-permutation](https://github.com/Ashish-242/leetcode-errors/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0088-merge-sorted-array) |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Ashish-242/leetcode-errors/tree/master/0005-longest-palindromic-substring) |
 | [0038-count-and-say](https://github.com/Ashish-242/leetcode-errors/tree/master/0038-count-and-say) |
 | [0344-reverse-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
@@ -124,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Ashish-242/leetcode-errors/tree/master/0005-longest-palindromic-substring) |
 | [0045-jump-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0045-jump-game-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ashish-242/leetcode-errors/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Ashish-242/leetcode-errors/tree/master/0152-maximum-product-subarray) |
