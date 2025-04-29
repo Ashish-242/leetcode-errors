@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/Ashish-242/leetcode-errors/tree/master/0074-search-a-2d-matrix) |
 | [0088-merge-sorted-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ashish-242/leetcode-errors/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Ashish-242/leetcode-errors/tree/master/0152-maximum-product-subarray) |
 | [0162-find-peak-element](https://github.com/Ashish-242/leetcode-errors/tree/master/0162-find-peak-element) |
 | [0238-product-of-array-except-self](https://github.com/Ashish-242/leetcode-errors/tree/master/0238-product-of-array-except-self) |
@@ -42,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
 | [1364-tuple-with-same-product](https://github.com/Ashish-242/leetcode-errors/tree/master/1364-tuple-with-same-product) |
@@ -106,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/Ashish-242/leetcode-errors/tree/master/0005-longest-palindromic-substring) |
 | [0038-count-and-say](https://github.com/Ashish-242/leetcode-errors/tree/master/0038-count-and-say) |
+| [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
 | [0344-reverse-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/Ashish-242/leetcode-errors/tree/master/1502-construct-k-palindrome-strings) |
@@ -129,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/Ashish-242/leetcode-errors/tree/master/0005-longest-palindromic-substring) |
 | [0045-jump-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0045-jump-game-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ashish-242/leetcode-errors/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/Ashish-242/leetcode-errors/tree/master/0152-maximum-product-subarray) |
 | [0435-non-overlapping-intervals](https://github.com/Ashish-242/leetcode-errors/tree/master/0435-non-overlapping-intervals) |
 | [0747-min-cost-climbing-stairs](https://github.com/Ashish-242/leetcode-errors/tree/master/0747-min-cost-climbing-stairs) |
@@ -236,4 +240,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/Ashish-242/leetcode-errors/tree/master/0287-find-the-duplicate-number) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
