@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/Ashish-242/leetcode-errors/tree/master/0005-longest-palindromic-substring) |
 | [0014-longest-common-prefix](https://github.com/Ashish-242/leetcode-errors/tree/master/0014-longest-common-prefix) |
 | [0038-count-and-say](https://github.com/Ashish-242/leetcode-errors/tree/master/0038-count-and-say) |
+| [0093-restore-ip-addresses](https://github.com/Ashish-242/leetcode-errors/tree/master/0093-restore-ip-addresses) |
 | [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
 | [0344-reverse-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
@@ -252,4 +253,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
+## Backtracking
+|  |
+| ------- |
+| [0093-restore-ip-addresses](https://github.com/Ashish-242/leetcode-errors/tree/master/0093-restore-ip-addresses) |
 <!---LeetCode Topics End-->
