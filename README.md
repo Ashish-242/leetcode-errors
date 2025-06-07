@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1524-string-matching-in-an-array](https://github.com/Ashish-242/leetcode-errors/tree/master/1524-string-matching-in-an-array) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Ashish-242/leetcode-errors/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Ashish-242/leetcode-errors/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2164-two-best-non-overlapping-events](https://github.com/Ashish-242/leetcode-errors/tree/master/2164-two-best-non-overlapping-events) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Ashish-242/leetcode-errors/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/Ashish-242/leetcode-errors/tree/master/2358-number-of-ways-to-split-array) |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
 | [1502-construct-k-palindrome-strings](https://github.com/Ashish-242/leetcode-errors/tree/master/1502-construct-k-palindrome-strings) |
 | [1798-max-number-of-k-sum-pairs](https://github.com/Ashish-242/leetcode-errors/tree/master/1798-max-number-of-k-sum-pairs) |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Ashish-242/leetcode-errors/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Ashish-242/leetcode-errors/tree/master/2413-smallest-number-in-infinite-set) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/Ashish-242/leetcode-errors/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/Ashish-242/leetcode-errors/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
@@ -245,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1364-tuple-with-same-product](https://github.com/Ashish-242/leetcode-errors/tree/master/1364-tuple-with-same-product) |
 | [1502-construct-k-palindrome-strings](https://github.com/Ashish-242/leetcode-errors/tree/master/1502-construct-k-palindrome-strings) |
+| [2116-count-number-of-pairs-with-absolute-difference-k](https://github.com/Ashish-242/leetcode-errors/tree/master/2116-count-number-of-pairs-with-absolute-difference-k) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/Ashish-242/leetcode-errors/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Bit Manipulation
 |  |
