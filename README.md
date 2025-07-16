@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ashish-242/leetcode-errors/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0110-balanced-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0226-invert-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Ashish-242/leetcode-errors/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0543-diameter-of-binary-tree) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Ashish-242/leetcode-errors/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+| [0110-balanced-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0226-invert-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/Ashish-242/leetcode-errors/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0543-diameter-of-binary-tree) |
@@ -136,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0110-balanced-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/Ashish-242/leetcode-errors/tree/master/0543-diameter-of-binary-tree) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/Ashish-242/leetcode-errors/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
