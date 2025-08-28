@@ -14,47 +14,61 @@
  * }
  */
 class Solution {
+    boolean nodeisfound=false;
     public TreeNode deleteNode(TreeNode root, int key) {
-        if(root==null) return null;
-        TreeNode rootnode=find(root,key);
-         return rootnode;
-    }
-    public TreeNode find(TreeNode root,int key){
-       
-        if(root==null) return null;
-         
-     
-         if(root.val<key){
-            if(root.right!=null){
-             root.right= find(root.right,key);
-                return root;
-            }
-        }else if(root.val>key){
-             if(root.left!=null){
-                root.left= find(root.left,key);
-                return root;
-             }
-           
-        }else{
-            if(root.left==null && root.right==null) return null;
-        else if(root.left!=null && root.right==null ) return root.left;
-         else if(root.left==null && root.right!=null ) return root.right;
-         else{
-            int nextsmallest=findnextsmallest(root.right);
-           root.val=nextsmallest;
-          root.right=find(root.right,nextsmallest);
-            return root;
-          
-         }
+       return solve(root,root,key);
+    
         
-        }
-       
-       return root;
     }
-    public int findnextsmallest(TreeNode root){
-      while(root.left!=null){
-        root=root.left;
-      }
-      return root.val;
+    public TreeNode solve(TreeNode root,TreeNode node,int key){
+        if(node==null) return null;
+        if(key>node.val)
+          node.right=solve(root,node.right,key);
+        else if (key<node.val){ 
+            node.left=solve(root,node.left,key);
+        }else{
+
+       
+            //node is found
+          
+            //now there are 3 condition
+            //it is only node
+            if(node.left==null && node.right==null){
+             return null;
+           
+            }
+           
+            //it has both child
+            else if(node.left!=null && node.right!=null){
+                int smallest=findnextsmallest(node.right);
+               node.val=smallest;
+              node.right= solve(node.right,node.right,smallest);
+              
+            }
+            //it has one child
+            else if(node.left!=null){
+                node=node.left;
+                
+            }else{
+                node=node.right;
+               
+            }
+           return node;
+         }
+         return node;
+    }
+    public void addnextnode(TreeNode node,TreeNode leftnode){
+        if(node==null) return;
+        if(node.left==null && node.right==null){
+            node.left=new TreeNode(leftnode.val,leftnode.left,leftnode.right);
+            return;
+        }
+        addnextnode(node.left,leftnode);
+    }
+      public int findnextsmallest(TreeNode node){
+        while(node.left!=null){
+            node=node.left;
+        }
+        return node.val;
     }
 }
