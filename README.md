@@ -281,4 +281,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0093-restore-ip-addresses](https://github.com/Ashish-242/leetcode-errors/tree/master/0093-restore-ip-addresses) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/Ashish-242/leetcode-errors/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
