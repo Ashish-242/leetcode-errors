@@ -291,6 +291,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0595-big-countries](https://github.com/Ashish-242/leetcode-errors/tree/master/0595-big-countries) |
 | [0620-not-boring-movies](https://github.com/Ashish-242/leetcode-errors/tree/master/0620-not-boring-movies) |
 | [1161-project-employees-i](https://github.com/Ashish-242/leetcode-errors/tree/master/1161-project-employees-i) |
+| [1174-immediate-food-delivery-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1174-immediate-food-delivery-ii) |
 | [1193-monthly-transactions-i](https://github.com/Ashish-242/leetcode-errors/tree/master/1193-monthly-transactions-i) |
 | [1258-article-views-i](https://github.com/Ashish-242/leetcode-errors/tree/master/1258-article-views-i) |
 | [1390-average-selling-price](https://github.com/Ashish-242/leetcode-errors/tree/master/1390-average-selling-price) |
