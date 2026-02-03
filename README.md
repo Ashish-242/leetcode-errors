@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/Ashish-242/leetcode-errors/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/Ashish-242/leetcode-errors/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Ashish-242/leetcode-errors/tree/master/0287-find-the-duplicate-number) |
+| [0303-range-sum-query-immutable](https://github.com/Ashish-242/leetcode-errors/tree/master/0303-range-sum-query-immutable) |
 | [0334-increasing-triplet-subsequence](https://github.com/Ashish-242/leetcode-errors/tree/master/0334-increasing-triplet-subsequence) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0435-non-overlapping-intervals](https://github.com/Ashish-242/leetcode-errors/tree/master/0435-non-overlapping-intervals) |
@@ -164,6 +165,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Ashish-242/leetcode-errors/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/Ashish-242/leetcode-errors/tree/master/0303-range-sum-query-immutable) |
 | [0724-find-pivot-index](https://github.com/Ashish-242/leetcode-errors/tree/master/0724-find-pivot-index) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ashish-242/leetcode-errors/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
@@ -182,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/Ashish-242/leetcode-errors/tree/master/0303-range-sum-query-immutable) |
 | [0937-online-stock-span](https://github.com/Ashish-242/leetcode-errors/tree/master/0937-online-stock-span) |
 | [2413-smallest-number-in-infinite-set](https://github.com/Ashish-242/leetcode-errors/tree/master/2413-smallest-number-in-infinite-set) |
 ## Heap (Priority Queue)
