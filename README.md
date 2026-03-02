@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/Ashish-242/leetcode-errors/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Ashish-242/leetcode-errors/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0525-contiguous-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/Ashish-242/leetcode-errors/tree/master/0560-subarray-sum-equals-k) |
 | [0643-maximum-average-subarray-i](https://github.com/Ashish-242/leetcode-errors/tree/master/0643-maximum-average-subarray-i) |
 | [0724-find-pivot-index](https://github.com/Ashish-242/leetcode-errors/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/Ashish-242/leetcode-errors/tree/master/0739-daily-temperatures) |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0525-contiguous-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/Ashish-242/leetcode-errors/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
 | [1364-tuple-with-same-product](https://github.com/Ashish-242/leetcode-errors/tree/master/1364-tuple-with-same-product) |
 | [1392-find-the-difference-of-two-arrays](https://github.com/Ashish-242/leetcode-errors/tree/master/1392-find-the-difference-of-two-arrays) |
@@ -169,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/Ashish-242/leetcode-errors/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/Ashish-242/leetcode-errors/tree/master/0303-range-sum-query-immutable) |
 | [0525-contiguous-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0525-contiguous-array) |
+| [0560-subarray-sum-equals-k](https://github.com/Ashish-242/leetcode-errors/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/Ashish-242/leetcode-errors/tree/master/0724-find-pivot-index) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ashish-242/leetcode-errors/tree/master/1046-max-consecutive-ones-iii) |
 | [1240-stone-game-ii](https://github.com/Ashish-242/leetcode-errors/tree/master/1240-stone-game-ii) |
