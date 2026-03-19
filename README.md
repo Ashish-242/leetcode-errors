@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0031-next-permutation](https://github.com/Ashish-242/leetcode-errors/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/Ashish-242/leetcode-errors/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/Ashish-242/leetcode-errors/tree/master/0088-merge-sorted-array) |
+| [0125-valid-palindrome](https://github.com/Ashish-242/leetcode-errors/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/Ashish-242/leetcode-errors/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/Ashish-242/leetcode-errors/tree/master/0287-find-the-duplicate-number) |
 | [0344-reverse-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0344-reverse-string) |
@@ -131,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0038-count-and-say](https://github.com/Ashish-242/leetcode-errors/tree/master/0038-count-and-say) |
 | [0044-wildcard-matching](https://github.com/Ashish-242/leetcode-errors/tree/master/0044-wildcard-matching) |
 | [0093-restore-ip-addresses](https://github.com/Ashish-242/leetcode-errors/tree/master/0093-restore-ip-addresses) |
+| [0125-valid-palindrome](https://github.com/Ashish-242/leetcode-errors/tree/master/0125-valid-palindrome) |
 | [0139-word-break](https://github.com/Ashish-242/leetcode-errors/tree/master/0139-word-break) |
 | [0344-reverse-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0344-reverse-string) |
 | [0567-permutation-in-string](https://github.com/Ashish-242/leetcode-errors/tree/master/0567-permutation-in-string) |
